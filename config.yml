@@ -1,0 +1,9 @@
+box:
+  distro: f22
+
+cluster:
+# FIXME: this should be autodetected to match the DHCP
+# range of the host.
+   service_addresses: 192.168.121.0/24
+#  n_nodes: 2
+

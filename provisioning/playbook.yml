@@ -1,0 +1,6 @@
+---
+- hosts: all
+  sudo: yes
+  tasks:
+    - name: Ensure local dir
+      file: state=directory path=/var/local/mydir

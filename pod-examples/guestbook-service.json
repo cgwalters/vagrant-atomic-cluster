@@ -1,0 +1,9 @@
+{
+  "apiVersion": "v1beta1",
+  "kind": "Service",
+  "id": "guestbook",
+  "port": 3000,
+  "publicIP": "master",
+  "containerPort": "http-server",
+  "selector": { "name": "guestbook" }
+}

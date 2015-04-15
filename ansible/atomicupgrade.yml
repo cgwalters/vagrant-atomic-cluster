@@ -1,0 +1,6 @@
+---
+- hosts: all
+  sudo: yes
+  tasks:
+    - name: "Atomic upgrade"
+      command: atomic host upgrade -r

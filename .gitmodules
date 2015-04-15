@@ -1,0 +1,6 @@
+[submodule "kubernetes-ansible"]
+	path = kubernetes-ansible
+	url = https://github.com/eparis/kubernetes-ansible.git
+[submodule "provisioning/kubernetes-ansible"]
+	path = provisioning/kubernetes-ansible
+	url = https://github.com/eparis/kubernetes-ansible.git
