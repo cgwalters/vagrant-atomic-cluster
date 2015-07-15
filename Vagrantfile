@@ -13,8 +13,8 @@ end
 settings = YAML.load_file 'config.yml'
 
 $DISTRO_BOXES = {
-  "f22" => {"baseurl" => "https://dl.fedoraproject.org/pub/alt/fedora-atomic/images/f22/20150304.2/cloud/images/",
-            "prefix" => "fedora-atomic-cloud-"}
+  "f22" => {"baseurl" => "https://dl.fedoraproject.org/pub/fedora/linux/releases/22/Cloud/x86_64/Images/",
+            "prefix" => "Fedora-Cloud-Atomic-Vagrant-22-20150521.x86_64."}
 }
 
 $boxsettings = settings['box']
